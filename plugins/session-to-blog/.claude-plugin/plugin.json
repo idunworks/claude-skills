@@ -1,0 +1,11 @@
+{
+  "name": "session-to-blog",
+  "version": "0.1.0",
+  "description": "Turn a finished piece of work from a Claude session into a redacted, first-person blog post draft. Runs only when you call /session-to-blog, and never publishes.",
+  "author": {
+    "name": "Tibor Berki",
+    "url": "https://idunworks.com"
+  },
+  "homepage": "https://idunworks.com/blog",
+  "keywords": ["blogging", "writing", "redaction"]
+}

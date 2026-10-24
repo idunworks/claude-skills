@@ -1,0 +1,16 @@
+{
+  "name": "idunworks-skills",
+  "owner": {
+    "name": "Tibor Berki",
+    "url": "https://idunworks.com"
+  },
+  "description": "Claude Code skills drawn from features built on idunworks.com. Each one runs only when called, and none of them publishes anything.",
+  "plugins": [
+    {
+      "name": "session-to-blog",
+      "source": "./plugins/session-to-blog",
+      "description": "Turn a finished piece of work from a Claude session into a redacted, first-person blog post draft. Runs only when you call /session-to-blog, and never publishes.",
+      "version": "0.1.0"
+    }
+  ]
+}
