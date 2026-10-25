@@ -22,11 +22,11 @@ Before anything else, look for the project's blog rules, in this order:
 
 If there are no rules, use the defaults in this file and offer once, at the end, to save them as `docs/blog/README.md` (template: `references/project-rules-template.md`).
 
-## Step 1: is this blog material? Ask, don't assume
+## Step 1: the follow-up questions
 
-Good material: a story, a mistake worth sharing, a technique, a "you won't believe what was wrong". Routine work is not.
+Calling `/session-to-blog` is the yes, so don't ask whether it's blog material. If the work looks routine, say so in one line and offer to stop. Good material is a story, a mistake worth sharing, a technique, a "you won't believe what was wrong".
 
-After a yes, ask the follow-ups in **one** message, each with a recommended answer:
+Ask the follow-ups in **one** message, each with a recommended answer, **before writing the draft**. If the user already answered some, skip those. In a non-interactive run, use the recommended answers and list them at the end:
 
 - Social media, and which platforms?
 - A cross-post (dev.to or similar)?

@@ -35,4 +35,4 @@ Nothing in your project depends on the skill: it reads your rules file but never
 
 ## License
 
-<!-- Owner to choose: MIT is the usual pick for skills. -->
+[MIT](LICENSE)
