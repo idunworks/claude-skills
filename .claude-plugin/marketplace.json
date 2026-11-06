@@ -10,7 +10,7 @@
       "name": "session-to-blog",
       "source": "./plugins/session-to-blog",
       "description": "Turn a finished piece of work from a Claude session into a redacted, first-person blog post draft. Runs only when you call /session-to-blog, and never publishes.",
-      "version": "0.1.2"
+      "version": "0.2.0"
     }
   ]
 }
