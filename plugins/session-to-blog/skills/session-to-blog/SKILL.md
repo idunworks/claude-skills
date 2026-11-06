@@ -30,7 +30,7 @@ Ask the follow-ups in **one** message, each with a recommended answer, **before 
 
 - Social media, and which platforms?
 - A cross-post (dev.to or similar)?
-- A preview image?
+- Pictures: a preview image with the title on it, and a hero picture without words?
 - Part of a series?
 - Which one or two tags?
 - Can it go out now, or does it wait for a deploy or a fix? (Anything security-related that is still open waits. See redaction.)
@@ -60,6 +60,12 @@ source: "which session or feature this came from"
 4. **A closing line** a reader can use: a checklist, a rule of thumb, or a link to the thing being built.
 
 **Length:** 800 to 1200 words unless the rules say otherwise. Cut before you pad.
+
+**Pictures: words where they travel, none on the page.**
+
+- **Preview and social pictures carry the title.** Link previews, square and 4:3 feed images travel without the post, so the picture has to say what it is. Make one per shape the project's platforms crop to (often 1.91:1, 4:3 and 1:1).
+- **The hero on the post page has no words.** The page already shows the title over or under it, so text in the picture only says it twice and fights the real title.
+- If the project's rules name an image script or sizes, use those.
 
 ## Voice
 
