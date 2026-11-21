@@ -1,0 +1,18 @@
+{
+  "name": "not-the-product",
+  "version": "0.1.0",
+  "description": "Review a community or social app feature so its members are never the product, and write the plain-language promises that say so, each one backed by a test or a guard. Never publishes or changes anything on its own.",
+  "author": {
+    "name": "Tibor Berki",
+    "url": "https://idunworks.com"
+  },
+  "homepage": "https://idunworks.com/blog",
+  "keywords": [
+    "community",
+    "privacy",
+    "ethics",
+    "ux-writing"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/idunworks/claude-skills"
+}
