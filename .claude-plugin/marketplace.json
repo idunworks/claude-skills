@@ -4,13 +4,19 @@
     "name": "Tibor Berki",
     "url": "https://idunworks.com"
   },
-  "description": "Claude Code skills drawn from features built on idunworks.com. Each one runs only when called, and none of them publishes anything.",
+  "description": "Claude Code skills drawn from features built on idunworks.com. Each says on its own page when it runs, and none of them publishes anything.",
   "plugins": [
     {
       "name": "session-to-blog",
       "source": "./plugins/session-to-blog",
       "description": "Turn a finished piece of work from a Claude session into a redacted, first-person blog post draft. Runs only when you call /session-to-blog, and never publishes.",
       "version": "0.2.0"
+    },
+    {
+      "name": "not-the-product",
+      "source": "./plugins/not-the-product",
+      "description": "Review a community or social app feature so its members are never the product, and write the plain-language promises that say so, each backed by a test or a guard. Runs when you design or review community features; never publishes or changes anything on its own.",
+      "version": "0.1.0"
     }
   ]
 }

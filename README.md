@@ -5,12 +5,14 @@ Skills for [Claude Code](https://claude.com/claude-code), drawn from features bu
 | Skill | What it does | Runs |
 |---|---|---|
 | [session-to-blog](plugins/session-to-blog/skills/session-to-blog/SKILL.md) | Turns a finished piece of work into a redacted, first-person blog post draft | Only when you type `/session-to-blog` |
+| [not-the-product](plugins/not-the-product/skills/not-the-product/SKILL.md) | Checks a community or social app feature so its members are never the product, and drafts plain promise text with a test behind each promise | By itself when you design or review community features (feeds, notifications, groups, digests, AI access), or when you ask for it |
 
 ## Install
 
 ```
 /plugin marketplace add idunworks/claude-skills
 /plugin install session-to-blog@idunworks-skills
+/plugin install not-the-product@idunworks-skills
 ```
 
 ## Turn it off, or detach it
@@ -19,9 +21,10 @@ Every skill here is built so you can switch it off without touching your project
 
 | You want to… | Do this | Undo |
 |---|---|---|
-| Stop it for one project | Write "Blog drafts: off" in the project's `docs/blog/README.md` (or `CLAUDE.md`). The skill checks this first and stops. | Remove the line |
-| Stop it everywhere, keep it installed | `claude plugin disable session-to-blog@idunworks-skills` | `claude plugin enable …` |
-| Remove it | `claude plugin uninstall session-to-blog@idunworks-skills` | Install again |
+| Stop session-to-blog for one project | Write "Blog drafts: off" in the project's `docs/blog/README.md` (or `CLAUDE.md`). The skill checks this first and stops. | Remove the line |
+| Stop not-the-product for one project | Write `not-the-product: off` in the project's `CLAUDE.md`. The skill checks this first and stops. | Remove the line |
+| Stop it everywhere, keep it installed | `claude plugin disable <skill>@idunworks-skills` | `claude plugin enable …` |
+| Remove it | `claude plugin uninstall <skill>@idunworks-skills` | Install again |
 | Drop this whole catalog | `/plugin marketplace remove idunworks-skills` | Add it again |
 
 Nothing in your project depends on the skill: it reads your rules file but never writes to it unless you ask. Uninstalling leaves your drafts and rules exactly as they were.
