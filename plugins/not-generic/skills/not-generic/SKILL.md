@@ -1,6 +1,6 @@
 ---
 name: not-generic
-description: Review a finished piece of work, a text (blog post, docs page, announcement, product copy) or a web page or component, for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Use when the user types /not-generic, or asks "does this read generic?", "review this draft" or "critique this page".
+description: Review a finished piece of work, a text (blog post, docs page, announcement, product copy) or a web page or component, for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when the user types /not-generic, for example to find out whether a draft reads generic or a page looks like a template.
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,6 @@
 # Examples: real before and after
 
-All three come from work on [idunworks.com](https://idunworks.com/blog): two from drafts the owner edited before publishing, one from a page the owner sent back. None is invented. Quotes are short and from published posts.
+All three come from work on [idunworks.com](https://idunworks.com/blog): two from published posts and the drafts behind them, one from a community page the owner reviewed before it was released. None is invented. The owner's words, published and unpublished, are quoted with their permission, and kept short.
 
 ## A. A true text that said nothing of its own
 
