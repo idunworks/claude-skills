@@ -48,6 +48,21 @@ Each clue is a place to look harder. It becomes a finding only when you can quot
 
 **Fix:** cut the transition and see if the sentences still follow; they usually do. Swap the adjective for the fact that made it true ("crucial" becomes "without it, checkout fails"). End a paragraph on its last real point, not on a summary of it.
 
+## Words and phrases that read generic
+
+SlopDetector keeps a longer, tiered list with suggested swaps: [The AI Words List](https://slopdetector.org/blog/ai-words-list) (2026). Use it as a reference; lists like this go stale, so check the current one rather than copying it. Our own short grouping, a handful of examples each:
+
+- **Big words for small actions:** "delve", "leverage", "utilize", "embark". Usually "look at", "use", "start".
+- **Hype adjectives:** "robust", "seamless", "cutting-edge", "comprehensive". Ask what fact made it true, and write that instead.
+- **Openers that could start anything:** "In today's digital age", "Let's dive into", "When it comes to".
+- **Borrowed authority:** "Studies have shown", "Experts agree", "The data speaks for itself". Name the study, or cut it.
+- **The staged reveal:** "The result?", "Here's the thing", "And the best part?". One can be a voice; one per paragraph is a tic.
+- **Fortune-cookie endings:** "At the end of the day", "The key is to find balance".
+- **Glue pairs that mean nothing:** "ever-evolving landscape", "holistic approach", "seamless integration".
+- **Encyclopedia voice:** "is defined as", "plays an important role in". The reader came for your case, not a definition.
+
+**A word on the list is a clue, not proof.** The source says so too: density is the tell, and one "crucial" in a long post is just a word. Words the author chose on purpose are part of the voice. And a find-and-replace doesn't fix generic text: swapping "leverage" for "use" leaves the sentence as empty as before. The finding still needs a place in the work and a concrete change, usually a fact, a number or a cut.
+
 ## The fix has two parts
 
 Every text finding ends with **a concrete change** (the rewritten line, the cut, the fact to add) and, when the fix needs something only the author knows, **one honest open question**. "What did it cost?" is a good question. "Consider adding more detail" is not a finding.
