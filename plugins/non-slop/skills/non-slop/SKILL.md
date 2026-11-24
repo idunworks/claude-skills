@@ -1,10 +1,10 @@
 ---
-name: not-generic
-description: Review a finished piece of work, a text (blog post, docs page, announcement, product copy) or a web page or component, for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when the user types /not-generic, for example to find out whether a draft reads generic or a page looks like a template.
+name: non-slop
+description: Review a finished piece of work, a text (blog post, docs page, announcement, product copy) or a web page or component, for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when the user types /non-slop, for example to find out whether a draft reads generic or a page looks like a template.
 disable-model-invocation: true
 ---
 
-# Not generic
+# Non-slop
 
 Generic work isn't wrong. It's swappable: the same sentence could open anyone's post, and the same hero could sit on anyone's product. This skill reads finished work the way a sharp editor or a tired visitor would, and asks what in it could only have come from this project.
 
@@ -12,7 +12,7 @@ The goal is never to label work "AI". Plenty of generic text was written by peop
 
 ## Step 0: the project's own rules, and the off switch
 
-- **If `CLAUDE.md` says `not-generic: off`, stop** and say so in one line.
+- **If `CLAUDE.md` says `non-slop: off`, stop** and say so in one line.
 - **Read the project's own style rules first**: a voice or style section named in `CLAUDE.md`, a design system, a brand guide. They win. A short sentence the house style asks for isn't a finding; a rounded button the design system forbids is.
 - The skill only reads and reports. It edits nothing unless the user asks for the rewrite.
 

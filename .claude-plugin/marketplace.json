@@ -19,9 +19,9 @@
       "version": "0.1.0"
     },
     {
-      "name": "not-generic",
-      "source": "./plugins/not-generic",
-      "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /not-generic, and changes nothing on its own.",
+      "name": "non-slop",
+      "source": "./plugins/non-slop",
+      "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /non-slop, and changes nothing on its own.",
       "version": "0.1.0"
     }
   ]

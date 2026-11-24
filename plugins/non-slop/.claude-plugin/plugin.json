@@ -1,7 +1,7 @@
 {
-  "name": "not-generic",
+  "name": "non-slop",
   "version": "0.1.0",
-  "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /not-generic, and changes nothing on its own.",
+  "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /non-slop, and changes nothing on its own.",
   "author": {
     "name": "Tibor Berki",
     "url": "https://idunworks.com"
