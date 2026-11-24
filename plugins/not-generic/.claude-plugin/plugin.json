@@ -1,0 +1,18 @@
+{
+  "name": "not-generic",
+  "version": "0.1.0",
+  "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /not-generic, and changes nothing on its own.",
+  "author": {
+    "name": "Tibor Berki",
+    "url": "https://idunworks.com"
+  },
+  "homepage": "https://idunworks.com/blog",
+  "keywords": [
+    "writing",
+    "web-design",
+    "review",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/idunworks/claude-skills"
+}

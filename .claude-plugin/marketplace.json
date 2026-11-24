@@ -10,12 +10,18 @@
       "name": "session-to-blog",
       "source": "./plugins/session-to-blog",
       "description": "Turn a finished piece of work from a Claude session into a redacted, first-person blog post draft. Runs only when you call /session-to-blog, and never publishes.",
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     {
       "name": "not-the-product",
       "source": "./plugins/not-the-product",
       "description": "Review a community or social app feature so its members are never the product, and write the plain-language promises that say so, each backed by a test or a guard. Runs when you design or review community features; never publishes or changes anything on its own.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "not-generic",
+      "source": "./plugins/not-generic",
+      "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /not-generic, and changes nothing on its own.",
       "version": "0.1.0"
     }
   ]
