@@ -26,7 +26,7 @@ The grouped list with swaps is in `words.md`.
 **Write instead:** cut it and read the next sentence. It usually starts the piece better on its own. If something is lost, say that thing directly.
 
 > **Slop:** In today's ever-changing digital landscape, security has never been more important.
-> **Better:** Last March, someone signed in to our admin page with a password from a 2019 leak.
+> **Better:** Bots try passwords from old leaks on every admin login page, so an admin login should refuse any password that shows up in a known leak.
 
 ## 3. Same-shaped structure
 
