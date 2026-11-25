@@ -1,6 +1,6 @@
 ---
 name: non-slop
-description: A library of slop patterns (generic words, stock phrases, same-shaped sentences, borrowed authority, empty wisdom, encyclopedia filler, missing substance, template web design) with what to write or design instead, and slop-to-better pairs for common genres. Use when writing or reviewing text or pages meant for readers (blog posts, landing pages, product copy, emails, cover letters, support replies, social posts, docs intros, UI copy), or when the user types /non-slop or asks whether something reads generic. Not for code, commit messages or internal notes.
+description: A library of slop patterns (generic words, stock phrases, same-shaped sentences, borrowed authority, empty wisdom, encyclopedia filler, missing substance, template web design) with what to write or design instead, and slop-to-better pairs for common genres. Use when writing or reviewing text or pages meant for readers (blog posts, landing pages, product copy, outreach and marketing emails, cover letters, support replies, social posts, error and empty-state messages), or when the user types /non-slop or asks whether something reads generic. Not for code, commit messages, chat replies to the user, messages to other agents, or internal notes.
 ---
 
 # Non-slop
@@ -21,7 +21,7 @@ This skill is a library and two ways to use it: **write** it right the first tim
 |---|---|
 | `references/patterns.md` | The nine kinds of text slop: what each looks like, why it reads as slop, and what to write instead |
 | `references/words.md` | Words and phrases that read generic, grouped, with plain swaps, and why swapping words alone fixes nothing |
-| `references/genres.md` | Slop and better versions side by side: blog intro, social post, cold email, product page, support reply, cover letter, conclusion, review, landing page, release note, error message |
+| `references/genres.md` | Slop and better versions side by side: landing page, error message, release note, product page, support reply, blog intro, social post, outreach email, job application, customer review, closing paragraph |
 | `references/design.md` | Design slop: template pages, everything loud, decoration without a job, missing states, and the checks to run |
 
 Read the one that fits the task. For a landing page, that's `genres.md` and `design.md`. For a cover letter, `genres.md` and `patterns.md`.
@@ -48,7 +48,7 @@ Then run the review pass below on your own draft before handing it over. Mention
 
 ## Mode 2: review
 
-Read the work once, whole, as its reader would. For a page, open it running at phone and desktop width and use it with the keyboard before reading the code. Then go through `references/patterns.md` (and `design.md` for pages) and report, in one message:
+Read the work once, whole, as its reader would. For a page that's already running, open it at phone and desktop width and use it with the keyboard before reading the code. Then go through `references/patterns.md` (and `design.md` for pages) and report, in one message:
 
 1. **What it's for,** in a sentence, as you read it. If that differs from what the author meant, say so. That alone is useful.
 2. **Findings,** most important first, at most about seven. Each one has:
@@ -76,4 +76,4 @@ Two pages that sorted slop into kinds before this one did, worth reading in full
 - [SlopDetector](https://slopdetector.org/) scores text on vocabulary, clichés, structure, diversity and substance, and keeps a [list of overused words](https://slopdetector.org/blog/ai-words-list). It judges quality, not origin.
 - [StealthGPT's "AI slop examples"](https://www.stealthgpt.ai/blog/ai-slop-examples) collects real-world cases and before-and-after pairs for everyday genres. That company sells a tool for getting past AI detectors. This skill doesn't share that goal, but the examples are a good read.
 
-The pairs and wording in this library are our own. Lists like these go stale as habits change, so check the current versions of both.
+Patterns 1 to 5 in `patterns.md` follow SlopDetector's five dimensions, and the genre-pair format in `genres.md` follows StealthGPT's examples. The pairs and wording in this library are our own. Lists like these go stale as habits change, so check the current versions of both.

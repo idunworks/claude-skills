@@ -47,7 +47,7 @@ The grouped list with swaps is in `words.md`.
 > **Slop:** It's not just a tool. It's a mindset. The result? Teams that move faster, think smarter and build better.
 > **Better:** We used it for a month on one team. Their releases went from fortnightly to weekly. The other team didn't change, and we still don't know why.
 
-## 4. Sameness (low diversity)
+## 4. Sameness
 
 **Looks like:** the same point made in the intro, in each section and in the outro. The same few words over and over ("ensure", "key", "journey"). Every sentence opening the same way. Every paragraph ending on a neat line.
 
@@ -80,7 +80,7 @@ The grouped list with swaps is in `words.md`.
 > **Slop:** Studies show that 80% of users abandon slow websites.
 > **Better:** When our product page got two seconds slower in May, checkouts dropped by about a fifth that week. One week, one site, so treat it as a hint.
 
-## 7. Empty wisdom (pseudo-insight)
+## 7. Empty wisdom
 
 **Looks like:** sentences shaped like insight that say nothing a reader didn't know. "Success is a journey, not a destination." "The best code is the code you understand." "Communication is the foundation of every team." A paragraph ending on a moral ("And that's the real lesson.").
 

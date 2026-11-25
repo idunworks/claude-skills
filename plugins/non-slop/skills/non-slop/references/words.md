@@ -11,13 +11,13 @@ These words appear far more in generic text than in text with something to say. 
 | leverage, utilize | use |
 | facilitate, enable | help, let, make possible (or say what happens) |
 | embark on, commence | start |
-| delve into | look at, dig into, or just start |
+| delve into | (cut it and start with what you found) |
 | endeavor | try |
 | ascertain | find out, check |
 | optimize | make faster, cheaper or shorter (say which) |
 | implement | build, add, set up |
 | streamline | cut a step (say which) |
-| foster, cultivate | build, grow, encourage |
+| foster, cultivate | (say who does what: "pay for", "run", "answer") |
 | navigate (a problem) | deal with, get through |
 | unlock, unleash | (say what becomes possible) |
 

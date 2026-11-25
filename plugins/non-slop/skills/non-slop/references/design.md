@@ -2,7 +2,7 @@
 
 Design slop is a page that could belong to any product. It usually comes from starting with a layout and filling it, instead of starting with what this visitor came to do and what only this project can show them.
 
-Look at the page running, at more than one width, before reading its code. The code tells you what was intended. The page tells you what happens.
+Look at the page running, at more than one width, before reading its code. The small pairs below are invented to show the move; in real work, the better version uses the project's own product, numbers and people. The code tells you what was intended. The page tells you what happens.
 
 ## 1. The template page
 
