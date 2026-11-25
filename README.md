@@ -6,7 +6,7 @@ Skills for [Claude Code](https://claude.com/claude-code), drawn from features bu
 |---|---|---|
 | [session-to-blog](plugins/session-to-blog/skills/session-to-blog/SKILL.md) | Turns a finished piece of work into a redacted, first-person blog post draft | Only when you type `/session-to-blog` |
 | [not-the-product](plugins/not-the-product/skills/not-the-product/SKILL.md) | Checks a community or social app feature so its members are never the product, and drafts plain promise text with a test behind each promise | By itself when you design or review community features (feeds, notifications, groups, digests, AI access), or when you ask for it |
-| [non-slop](plugins/non-slop/skills/non-slop/SKILL.md) | Reviews a finished text or web page for generic, unsupported, repetitive or unconsidered work, and names a concrete change and an honest open question for each finding. It doesn't try to tell AI from human; it asks what only this project could have made | Only when you type `/non-slop` |
+| [non-slop](plugins/non-slop/skills/non-slop/SKILL.md) | A library of slop patterns (generic words, stock phrases, same-shaped structure, borrowed authority, empty wisdom, missing substance, template design) with what to write instead, and slop-to-better pairs for eleven genres. Writes it right the first time, or reviews a draft. Judges quality, not origin | By itself when you write or review text or pages meant for readers, or when you type `/non-slop` |
 
 ## Install
 

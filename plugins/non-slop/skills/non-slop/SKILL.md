@@ -1,58 +1,79 @@
 ---
 name: non-slop
-description: Review a finished piece of work, a text (blog post, docs page, announcement, product copy) or a web page or component, for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when the user types /non-slop, for example to find out whether a draft reads generic or a page looks like a template.
-disable-model-invocation: true
+description: A library of slop patterns (generic words, stock phrases, same-shaped sentences, borrowed authority, empty wisdom, encyclopedia filler, missing substance, template web design) with what to write or design instead, and slop-to-better pairs for common genres. Use when writing or reviewing text or pages meant for readers (blog posts, landing pages, product copy, emails, cover letters, support replies, social posts, docs intros, UI copy), or when the user types /non-slop or asks whether something reads generic. Not for code, commit messages or internal notes.
 ---
 
 # Non-slop
 
-Generic work isn't wrong. It's swappable: the same sentence could open anyone's post, and the same hero could sit on anyone's product. This skill reads finished work the way a sharp editor or a tired visitor would, and asks what in it could only have come from this project.
+Slop is work that could have come from anywhere. The sentence opens anyone's post; the hero sits on anyone's product; the advice fits every reader and helps none. It isn't always wrong. It's swappable, and readers notice that within a line.
 
-The goal is never to label work "AI". Plenty of generic text was written by people, and plenty of good text by machines. The point is to catch work that is generic, unsupported, repetitive or unconsidered, whoever made it, and to say what would make it specific.
+This skill is a library and two ways to use it: **write** it right the first time, or **review** what's already written. It judges the work, never who or what made it. Plenty of slop is written by people, and plenty of good text by machines.
 
 ## Step 0: the project's own rules, and the off switch
 
 - **If `CLAUDE.md` says `non-slop: off`, stop** and say so in one line.
-- **Read the project's own style rules first**: a voice or style section named in `CLAUDE.md`, a design system, a brand guide. They win. A short sentence the house style asks for isn't a finding; a rounded button the design system forbids is.
-- The skill only reads and reports. It edits nothing unless the user asks for the rewrite.
+- **Read the project's own style rules first:** a voice or style section in `CLAUDE.md`, a brand guide, a design system. They win. A fragment the house style asks for is voice, not slop. A word on the list that the author chose on purpose stays.
+- **Never invent the substance.** The cure for slop is a real fact, number, name, constraint or example. If you don't have it, ask for it or leave a marked gap (`[how long did setup take?]`). A made-up specific is worse than a vague line, because it reads as true.
 
-## Step 1: read it the way it will be met
+## The library
 
-- **Text:** read it whole, once, as the reader it's for. Then read it aloud, or as close as you can: rhythm problems are heard before they are seen.
-- **A page or component:** open it running, if you can, not only its code. Look at it at phone width and desktop width, then use it with the keyboard alone. Clues and checks: `references/web-design.md`.
-- Note what you see first and what you have to hunt for. That order is the design, whatever the intent was.
+| File | What's in it |
+|---|---|
+| `references/patterns.md` | The nine kinds of text slop: what each looks like, why it reads as slop, and what to write instead |
+| `references/words.md` | Words and phrases that read generic, grouped, with plain swaps, and why swapping words alone fixes nothing |
+| `references/genres.md` | Slop and better versions side by side: blog intro, social post, cold email, product page, support reply, cover letter, conclusion, review, landing page, release note, error message |
+| `references/design.md` | Design slop: template pages, everything loud, decoration without a job, missing states, and the checks to run |
 
-## Step 2: the five questions
+Read the one that fits the task. For a landing page, that's `genres.md` and `design.md`. For a cover letter, `genres.md` and `patterns.md`.
 
-Answer each one in a line or two, about this work:
+## Mode 1: write it right the first time
 
-1. **What is it for?** Who is it for, and what should they know or be able to do after it? If you can't say, that is the first finding.
-2. **What can be checked?** Point to the facts, numbers, names, quotes and claims. Which have a source, a test, a link or a firsthand observation behind them, and which are confident and unchecked?
-3. **Could it be swapped into an unrelated product unchanged?** Point to the sentences, sections or blocks that could. Those are the generic parts.
-4. **What's missing?** The real world: constraints, trade-offs, what went wrong, the exception, the number, the person. For a page: the states (long, empty, error, loading, no results), the keyboard path, the small screen.
-5. **What would you cut or rewrite?** Name the lines and the blocks.
+Before the first sentence, answer these four questions in your head, or out loud if you're missing answers:
 
-The clue lists are in `references/text.md` and `references/web-design.md`. Use them to look harder, not as a score: a finding needs a place in the work, not just a clue that matches.
+1. **Who reads it, and what should they know or do afterwards?** One reader, one outcome.
+2. **What do I actually have?** List the facts, numbers, names, quotes, dates, screenshots, the thing that went wrong. This is the material. Everything else is framing.
+3. **What's the one point?** If it takes more than a sentence, there are two pieces.
+4. **What would only this author, product or project say?** That's where the piece starts.
 
-## Step 3: report
+While writing:
 
-One message, in this order:
+- **Start with the material, not the frame.** The first line is a fact, a moment, a number or the reader's problem, not the state of the world.
+- **Say each thing once,** where it's earned. No intro that previews and no outro that repeats.
+- **Every claim gets a source, a measurement, or an "I think".**
+- **Let the shape follow the content.** Use a list where things are parallel, a story where they're not. Vary sentence and paragraph length because the thoughts differ, not as a trick.
+- **Plain words.** "Use", not "leverage". The word list is in `references/words.md`.
+- **End on the last real point,** a trade-off, or what's still open. Not a moral.
 
-1. **What it's for,** in a sentence, as you read it. If that differs from what the author meant, say so: that alone is useful.
-2. **Findings,** most important first, at most about seven. For each:
-   - **where** (a quote of a few words, a heading, a component, a screen width);
-   - **what's generic or unsupported about it**, in a line;
-   - **a concrete change**: the rewritten sentence, the fact to add, the block to cut, the state to design. Not "make it more specific";
-   - **one honest open question** when the fix needs something only the author knows ("What did it actually cost?", "Which reader is this card for?"). Never invent the answer: no made-up numbers, quotes, people or test results.
+Then run the review pass below on your own draft before handing it over. Mention in a line what you changed or couldn't fix ("the cost line needs a real number").
+
+## Mode 2: review
+
+Read the work once, whole, as its reader would. For a page, open it running at phone and desktop width and use it with the keyboard before reading the code. Then go through `references/patterns.md` (and `design.md` for pages) and report, in one message:
+
+1. **What it's for,** in a sentence, as you read it. If that differs from what the author meant, say so. That alone is useful.
+2. **Findings,** most important first, at most about seven. Each one has:
+   - **where:** a quote of a few words, a heading, a component, a screen width;
+   - **which pattern:** a name from the library, and why it fits here;
+   - **a concrete change:** the rewritten line, the cut, the fact to add, the state to design. Never just "make it more specific";
+   - **one honest question,** when the fix needs something only the author knows ("What did it actually cost?").
 3. **What already works,** in a line or two, so it survives the next edit.
-4. **What you didn't check** (not run, not seen on a phone, no screen reader), plainly.
+4. **What you didn't check:** not run, not seen on a phone, no screen reader.
 
-Real before-and-after examples of each kind: `references/examples.md`.
+A clue isn't a finding until you can point to the place and say what would be better. One "crucial" in a long piece is just a word. The tell is density: the same move, again and again.
 
 ## What this skill never does
 
-- Trigger itself. It runs only when the user calls it.
-- Rewrite the work unasked, or publish, post or deploy anything.
-- Call something "AI-written", or score it as such. It names a place and a change.
-- Add facts, quotes, numbers or anecdotes that aren't in the author's material. A missing fact becomes a question.
-- Flatten a voice. Fragments, profanity, odd jokes and strong opinions that the author chose are specific, not sloppy. If the project has a voice guide, they are probably in it.
+- **Help text pass as human, or get past an AI detector.** It isn't about hiding where text came from. It's about text that's worth reading. If that's the request, say so and offer the quality pass instead.
+- **Label work "AI-written", or score it as such.** It names a pattern, a place and a change.
+- **Invent facts, quotes, numbers, people, reviews or results** to make text sound specific.
+- **Flatten a voice.** Fragments, profanity, odd jokes and strong opinions are specific, not sloppy.
+- **Publish, post or deploy anything,** or rewrite the work unless asked.
+
+## Further reading
+
+Two pages that sorted slop into kinds before this one did, worth reading in full:
+
+- [SlopDetector](https://slopdetector.org/) scores text on vocabulary, clichés, structure, diversity and substance, and keeps a [list of overused words](https://slopdetector.org/blog/ai-words-list). It judges quality, not origin.
+- [StealthGPT's "AI slop examples"](https://www.stealthgpt.ai/blog/ai-slop-examples) collects real-world cases and before-and-after pairs for everyday genres. That company sells a tool for getting past AI detectors. This skill doesn't share that goal, but the examples are a good read.
+
+The pairs and wording in this library are our own. Lists like these go stale as habits change, so check the current versions of both.

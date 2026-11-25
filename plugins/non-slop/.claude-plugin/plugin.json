@@ -1,7 +1,7 @@
 {
   "name": "non-slop",
   "version": "0.1.0",
-  "description": "Review a finished text or web page for generic, unsupported, repetitive or unconsidered work, and name a concrete change for each finding. Runs only when you call /non-slop, and changes nothing on its own.",
+  "description": "A library of slop patterns in text and web design, with what to write instead and slop-to-better pairs for common genres. Use it to write non-slop the first time, or to review a draft. Judges quality, not who or what wrote it; never helps text pass an AI detector.",
   "author": {
     "name": "Tibor Berki",
     "url": "https://idunworks.com"
@@ -9,9 +9,9 @@
   "homepage": "https://idunworks.com/blog",
   "keywords": [
     "writing",
+    "copywriting",
     "web-design",
-    "review",
-    "accessibility"
+    "review"
   ],
   "license": "MIT",
   "repository": "https://github.com/idunworks/claude-skills"
