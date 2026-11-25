@@ -119,7 +119,7 @@ The grouped list with swaps is in `words.md`.
 
 **Why it reads as slop:** a specific reads as true, so a wrong one does more harm than a vague line. One reader who checks finds it, and then trusts nothing else on the page.
 
-**Write instead:** check every specific against its source before it stays: the changelog, the analytics, the order system, the person quoted. Keep the ones you could show someone. Mark the rest as a gap for the author (`[real number?]`), or make the claim smaller and true.
+**Write instead:** check every specific against its source before it stays: the changelog, the analytics, the order system, the person quoted. Keep the ones you can point to a source for. Mark the rest as a gap for the author (`[real number?]`), or make the claim smaller and true.
 
 > **Slop:** Our new checkout is 47% faster and loved by customers.
 > **Better:** Checkout went from five steps to three in the March release. We haven't measured the time yet, and we still need to test it with a screen reader.

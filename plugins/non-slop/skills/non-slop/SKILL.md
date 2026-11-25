@@ -56,10 +56,10 @@ Read the work once, whole, as its reader would. For a page that's already runnin
 4. **What's missing?** Constraints, exceptions, examples, the cost; for pages, the empty, long, error and keyboard states.
 5. **What would you cut or rewrite first?**
 
-Then go through `references/patterns.md` (and `design.md` for pages) and report, in one message:
+Answer them as you go through `references/patterns.md` (and `design.md` for pages), then report, in one message:
 
-1. **What it's for,** in a sentence, as you read it. If that differs from what the author meant, say so. That alone is useful.
-2. **Findings,** most important first, at most about seven. Each one has:
+1. **Your answer to question 1,** in a sentence. If it differs from what the author meant, say so. That alone is useful.
+2. **Findings,** mostly from questions 2 to 5 and the library, most important first, at most about seven. Each one has:
    - **where:** a quote of a few words, a heading, a component, a screen width;
    - **which pattern:** a name from the library, and why it fits here;
    - **a concrete change:** the rewritten line, the cut, the fact to add, the state to design. Never just "make it more specific";
