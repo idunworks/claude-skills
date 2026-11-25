@@ -1,4 +1,4 @@
-# The nine kinds of text slop
+# The ten kinds of text slop
 
 Each kind has what it looks like, why readers notice it, what to write instead, and a small pair. The pairs are invented to show the move. The facts in the "better" lines stand in for facts you have; never borrow them.
 
@@ -112,6 +112,21 @@ The grouped list with swaps is in `words.md`.
 
 > **Slop:** Great question! Feeling stuck is totally normal, and it's all part of the learning journey. Don't give up!
 > **Better:** That error means the file is still open in another program. Close it there and run the import again.
+
+## 10. Unchecked specifics
+
+**Looks like:** a precise number, date, version, price, quote or name that nobody looked up. "Cuts load time by 47%", "since 2019", "supports every browser", a quote with a full name on it, a feature the product doesn't have. It often comes from fixing pattern 5 the wrong way: the draft needed a fact, so one was supplied.
+
+**Why it reads as slop:** a specific reads as true, so a wrong one does more harm than a vague line. One reader who checks finds it, and then trusts nothing else on the page.
+
+**Write instead:** check every specific against its source before it stays: the changelog, the analytics, the order system, the person quoted. Keep the ones you can point to a source for. Mark the rest as a gap for the author (`[real number?]`), or make the claim smaller and true.
+
+> **Slop:** Our new checkout is 47% faster and loved by customers.
+> **Better:** Checkout went from five steps to three in the March release. We haven't measured the time yet, and we still need to test it with a screen reader.
+
+## Read it aloud
+
+Some slop only shows when you hear it. Read the draft aloud, or at least at speaking pace, and mark where you run out of breath, where a connector ("Moreover", "That said") carries no logic, where three adjectives sit in a row, and where a paragraph lands on a neat line you wouldn't say to a person. Those marks are where to cut.
 
 ## The fix always has two parts
 
