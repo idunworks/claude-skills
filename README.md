@@ -6,6 +6,7 @@ Skills for [Claude Code](https://claude.com/claude-code), drawn from features bu
 |---|---|---|
 | [session-to-blog](plugins/session-to-blog/skills/session-to-blog/SKILL.md) | Turns a finished piece of work into a redacted, first-person blog post draft | Only when you type `/session-to-blog` |
 | [not-the-product](plugins/not-the-product/skills/not-the-product/SKILL.md) | Checks a community or social app feature so its members are never the product, and drafts plain promise text with a test behind each promise | By itself when you design or review community features (feeds, notifications, groups, digests, AI access), or when you ask for it |
+| [non-slop](plugins/non-slop/skills/non-slop/SKILL.md) | A library of slop patterns (generic words, stock phrases, same-shaped structure, borrowed authority, empty wisdom, missing substance, template design) with what to write instead, and slop-to-better pairs for eleven genres. Writes it right the first time, or reviews a draft. Judges quality, not origin | By itself when you write or review text or pages meant for readers, or when you type `/non-slop` |
 
 ## Install
 
@@ -13,6 +14,7 @@ Skills for [Claude Code](https://claude.com/claude-code), drawn from features bu
 /plugin marketplace add idunworks/claude-skills
 /plugin install session-to-blog@idunworks-skills
 /plugin install not-the-product@idunworks-skills
+/plugin install non-slop@idunworks-skills
 ```
 
 ## Turn it off, or detach it
@@ -23,6 +25,7 @@ Every skill here is built so you can switch it off without touching your project
 |---|---|---|
 | Stop session-to-blog for one project | Write "Blog drafts: off" in the project's `docs/blog/README.md` (or `CLAUDE.md`). The skill checks this first and stops. | Remove the line |
 | Stop not-the-product for one project | Write `not-the-product: off` in the project's `CLAUDE.md`. The skill checks this first and stops. | Remove the line |
+| Stop non-slop for one project | Write `non-slop: off` in the project's `CLAUDE.md`. The skill checks this first and stops. | Remove the line |
 | Stop it everywhere, keep it installed | `claude plugin disable <skill>@idunworks-skills` | `claude plugin enable …` |
 | Remove it | `claude plugin uninstall <skill>@idunworks-skills` | Install again |
 | Drop this whole catalog | `/plugin marketplace remove idunworks-skills` | Add it again |

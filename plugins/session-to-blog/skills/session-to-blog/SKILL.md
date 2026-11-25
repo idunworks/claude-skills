@@ -96,6 +96,7 @@ Anything undecided goes in an `<!-- HTML comment -->` for the owner.
 ## Step 4: hand over. Never publish
 
 - Tell the user the full absolute path of the draft and what to check (title, intro, outro, redaction).
+- **Offer a second look:** if the `non-slop` skill is installed, suggest the user runs `/non-slop` on the draft before it goes anywhere. It catches the generic lines, the repeated point and the unchecked claims that a writer stops seeing.
 - **Upload only if the project rules name an upload command, and only after the user says yes.** Prefer an account that can only save drafts.
 - **Never overwrite a draft that's already in the CMS** without asking: the owner may have edited it there.
 - **After the owner publishes, pull their edits back** into the repo file. The live post is the truth; the file follows it, never the other way. While you're there, check the preview image and the hero picture are set.

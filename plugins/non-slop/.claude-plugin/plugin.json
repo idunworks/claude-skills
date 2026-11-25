@@ -1,0 +1,18 @@
+{
+  "name": "non-slop",
+  "version": "0.1.0",
+  "description": "A library of slop patterns in text and web design, with what to write instead and slop-to-better pairs for common genres. Use it to write non-slop the first time, or to review a draft. Judges quality, not who or what wrote it; never helps text pass an AI detector.",
+  "author": {
+    "name": "Tibor Berki",
+    "url": "https://idunworks.com"
+  },
+  "homepage": "https://idunworks.com/blog",
+  "keywords": [
+    "writing",
+    "copywriting",
+    "web-design",
+    "review"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/idunworks/claude-skills"
+}
