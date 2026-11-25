@@ -19,10 +19,10 @@ This skill is a library and two ways to use it: **write** it right the first tim
 
 | File | What's in it |
 |---|---|
-| `references/patterns.md` | The nine kinds of text slop: what each looks like, why it reads as slop, and what to write instead |
+| `references/patterns.md` | The ten kinds of text slop: what each looks like, why it reads as slop, and what to write instead, plus the read-aloud test |
 | `references/words.md` | Words and phrases that read generic, grouped, with plain swaps, and why swapping words alone fixes nothing |
 | `references/genres.md` | Slop and better versions side by side: landing page, error message, release note, product page, support reply, blog intro, social post, outreach email, job application, customer review, closing paragraph |
-| `references/design.md` | Design slop: template pages, everything loud, decoration without a job, missing states, and the checks to run |
+| `references/design.md` | Design slop: template pages, everything loud, decoration without a job, missing states, controls that do nothing, and the checks to run |
 
 Read the one that fits the task. For a landing page, that's `genres.md` and `design.md`. For a cover letter, `genres.md` and `patterns.md`.
 
@@ -39,16 +39,24 @@ While writing:
 
 - **Start with the material, not the frame.** The first line is a fact, a moment, a number or the reader's problem, not the state of the world.
 - **Say each thing once,** where it's earned. No intro that previews and no outro that repeats.
-- **Every claim gets a source, a measurement, or an "I think".**
+- **Every claim gets a source, a measurement, or an "I think".** Every specific you keep (a number, a date, a quote, a feature) is one you checked. A precise number nobody looked up is worse than none.
 - **Let the shape follow the content.** Use a list where things are parallel, a story where they're not. Vary sentence and paragraph length because the thoughts differ, not as a trick.
 - **Plain words.** "Use", not "leverage". The word list is in `references/words.md`.
 - **End on the last real point,** a trade-off, or what's still open. Not a moral.
 
-Then run the review pass below on your own draft before handing it over. Mention in a line what you changed or couldn't fix ("the cost line needs a real number").
+Then read it aloud once, and run the review pass below on your own draft before handing it over. Mention in a line what you changed or couldn't fix ("the cost line needs a real number").
 
 ## Mode 2: review
 
-Read the work once, whole, as its reader would. For a page that's already running, open it at phone and desktop width and use it with the keyboard before reading the code. Then go through `references/patterns.md` (and `design.md` for pages) and report, in one message:
+Read the work once, whole, as its reader would. For a page that's already running, open it at phone and desktop width and use it with the keyboard before reading the code. Then ask five questions:
+
+1. **What is it for?** One reader, one outcome.
+2. **Which claims can be checked, and do they hold?** Look the specifics up (`patterns.md` 6 and 10).
+3. **Could it be swapped into an unrelated product unchanged?** Every line that could is a finding.
+4. **What's missing?** Constraints, exceptions, examples, the cost; for pages, the empty, long, error and keyboard states.
+5. **What would you cut or rewrite first?**
+
+Then go through `references/patterns.md` (and `design.md` for pages) and report, in one message:
 
 1. **What it's for,** in a sentence, as you read it. If that differs from what the author meant, say so. That alone is useful.
 2. **Findings,** most important first, at most about seven. Each one has:

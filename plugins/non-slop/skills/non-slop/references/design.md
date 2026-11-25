@@ -61,6 +61,14 @@ Look at the page running, at more than one width, before reading its code. The s
 
 **Instead:** give the visitor reasons, and let them decide. Real scarcity can be stated plainly ("Ships after 12 January, last batch this year"). Leaving or saying no is as easy to find as saying yes.
 
+## 10. Things that look like they work, and don't
+
+**Looks like:** a card that lifts on hover but isn't a link, an icon that looks like a button and does nothing, a link to `#`, a search box that only filters what's already on screen without saying so, a toggle whose setting nothing reads, a "Read more" that opens the same text.
+
+**Why it's slop:** each one is a small broken promise. The visitor tries it, nothing happens, and they stop trusting the rest of the page.
+
+**Instead:** every element that looks interactive does something a visitor can see, and says what. Anything else loses the hover, the pointer and the button look. Click every control once before calling the page done.
+
 ## The checks
 
 Run these, and report the ones you didn't:
@@ -72,6 +80,7 @@ Run these, and report the ones you didn't:
 - **Long content.** The longest real name, title or translation (German words are long), a number with many digits.
 - **Empty content.** A new account, an empty list, no image.
 - **Slow and failing.** A slow connection, a failed request, no permission, signed out.
+- **Every control, once.** Click or tap each thing that looks interactive. Something visible happens, and it's what the label said.
 
 ## A design finding names who, what and the evidence
 
