@@ -11,7 +11,7 @@ Look at the page running, at more than one width, before reading its code. The s
 **Instead:** start from what only this project has: the product in use, a real screenshot, real numbers, the real people, the one thing the visitor came to do. Replace each card's claim with the evidence for it, or cut the card. The section order follows the visitor's questions, not the template's.
 
 > **Slop:** three cards: "⚡ Fast", "🔒 Secure", "🤝 Collaborative".
-> **Better:** one screenshot of the editor with two cursors in it, captioned "Two people editing the same paragraph, no conflicts". Below it, the one security fact a buyer asks about, linked to the page that proves it.
+> **Better:** one screenshot of the editor with two cursors in it, captioned "Two people editing the same paragraph, no conflicts". Below it, the one security fact a buyer asks about, linked to the page that proves it. Make animated screens that prove your point, if possible. Bring them into the post.
 
 ## 2. Decoration without a job
 
